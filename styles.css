@@ -16,7 +16,7 @@
 @media screen and (max-width: 699px) {
   body {
     background-image: url(images/bg-header-mobile.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: "Bai Jamjuree", sans-serif;
   }
 }
