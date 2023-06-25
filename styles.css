@@ -1,0 +1,238 @@
+/* global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  body {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+button {
+  color: white !important;
+  font-weight: 600 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: hsl(210, 10%, 33%);
+}
+
+/* section styles */
+/*  */
+/* hero */
+@media screen and (min-width: 699px) {
+  .hero {
+    margin: auto;
+    width: 50%;
+  }
+  .hero p {
+    margin: auto;
+    width: 55%;
+  }
+
+  .download-button {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* features */
+.features-top {
+  margin: auto;
+  width: 60%;
+}
+
+.features img {
+  width: 100%;
+}
+
+.highlight {
+  width: 35%;
+}
+
+@media screen and (max-width: 699px) {
+  .features {
+    margin: auto;
+    width: 85%;
+  }
+  .features-image {
+    width: 85%;
+    margin: auto;
+  }
+  .features img {
+    width: 100%;
+  }
+
+  .highlight {
+    width: 90%;
+  }
+}
+
+/* access */
+.access {
+  margin: auto;
+  width: 50%;
+}
+
+.access img {
+  width: 100%;
+}
+
+@media screen and (max-width: 699px) {
+  .access {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* workflow */
+.workflow {
+  margin: auto;
+  width: 75%;
+}
+
+@media screen and (max-width: 699px) {
+  .workflow {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* clients section */
+@media screen and (min-width: 700px) {
+  .clients {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 699px) {
+  .clients {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+/* platforms */
+.platforms {
+  margin: auto;
+  width: 90%;
+}
+
+/* button */
+/*  */
+.l-Cyan {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.l-Cyan:hover {
+  background-color: hsl(171, 95%, 29%);
+}
+
+.l-Blue {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.l-Blue:hover {
+  background-color: hsl(233, 72%, 54%);
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+/* footer */
+footer {
+  background-color: hsl(217, 21%, 85%);
+}
+
+footer img {
+  width: 25%;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.foot-container {
+  margin: auto;
+  width: 85%;
+}
+
+@media screen and (max-width: 699px) {
+  footer {
+    text-align: center;
+  }
+
+  .socials,
+  .links {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .row-cols-3 > * {
+    width: 100%;
+  }
+}
+.socials img {
+  width: 10%;
+  margin-left: 15px;
+}
+
+/* attribution */
+.attribution {
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
